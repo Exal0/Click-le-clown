@@ -1,0 +1,53 @@
+
+@font-face {
+    font-family: 'mapolice';
+    src: url("../images/JeVisaisPasLesCouilles.ttf");
+}
+
+body{
+    margin: 0;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/58c1d10217bffc0ccdaf728d/1522434613658-1S3TWPK3WX6BY2SUXAPM/image-asset.jpeg);
+    background-color: black;
+    background-size: cover;
+   
+    
+}
+
+
+ .header-style{
+    color :  #A50000;
+    display: flex;
+    justify-content: center;
+    
+} 
+.header-style h1{
+    text-shadow:2px 2px 10px  #A50000;
+    font-family: mapolice;
+}
+
+
+.button-style{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10%;
+    width: 50vw;
+    height: 5vh;
+    opacity: 70%;
+    text-shadow:2px 2px 10px  #A50000;
+    font-size: large;
+    font-family:mapolice
+}
+
+.section-menu{
+    color: #A50000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    font-family: mapolice
+}
+.button-style:hover{
+    background-color: #A50000;
+    color: black;
+}
