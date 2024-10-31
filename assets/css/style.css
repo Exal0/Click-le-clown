@@ -26,7 +26,9 @@ body{
 }
 
 
-.button-style{
+.section-menu button{
+    display: flex;
+    justify-content: center;
     background-color: rgb(0, 0, 0);
     color: white;
     border-radius: 10%;
@@ -46,8 +48,22 @@ body{
     flex-direction: column;
     gap: 40px;
     font-family: mapolice
+
 }
-.button-style:hover{
+.section-menu button:hover{
     background-color: #A50000;
     color: black;
 }
+
+ .hidden{
+    display: none;
+} 
+
+.clown-rand{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+ 
